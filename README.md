@@ -2,7 +2,8 @@
 stock-analysis
 
 Goals: 
-1) Find the total daily volume and yearly return for each stock. 
+1) Find DQ's total daily volume and yearly return.
+2) For each stock find total daily volume and yearly return.
 
 Terms Covered: 
 
@@ -49,7 +50,7 @@ Anti-patterns - common responses to problems that may be ineffective, too specia
 
 code smells - Code does what it is supposed to; but, something about the code indicates there is probably a more elegant and productive solution to the problem.
 
-
+Logical operators - Booleans, and, or and not's. 
 
 
 finding coding help on the internet
