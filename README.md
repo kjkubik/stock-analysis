@@ -1,9 +1,12 @@
 # stock-analysis
 stock-analysis
 
+Goals: 
+1) Find the total daily volume and yearly return for each stock. 
+
 Terms Covered: 
 
-Daily volume: Total number of shares traded throughout the day
+Volume: Total number of shares traded within a given period of time.
 
 Yearly return: Percentage difference in price from the beginning 
                of the year to the end of the year.
@@ -22,5 +25,11 @@ Worksheets
 Cells
 
 Methods Used: 
+MsgBox()
 Range()
 Cell()
+
+Documentation
+  - Importance of: "Code is read more than it is written."
+  - Whitespace, give everyone's eyes a break.
+
