@@ -55,5 +55,7 @@ Logical operators - Booleans, and, or and not's.
 
 finding coding help on the internet
 
+Arrays - AKA lists
+Nested Loops (The Skill Drill was actually fun!)
 
 
