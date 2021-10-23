@@ -45,3 +45,5 @@ conditionals - what controls a loop, AKA an if statement
 code patterns - 
 finding coding help on the internet
 
+
+
