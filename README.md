@@ -29,7 +29,19 @@ MsgBox()
 Range()
 Cell()
 
+Macro Descriptions: 
+DQAnalysis() : 
+
+
 Documentation
   - Importance of: "Code is read more than it is written."
   - Whitespace, give everyone's eyes a break.
+
+
+loops - repeat a task until a condition is met.
+  FOR Loops - repeat instructions a specific number of times.
+  
+conditionals - what controls a loop, AKA an if statement
+code patterns - 
+finding coding help on the internet
 
