@@ -42,7 +42,16 @@ loops - repeat a task until a condition is met.
   FOR Loops - repeat instructions a specific number of times.
   
 conditionals - what controls a loop, AKA an if statement
-code patterns - 
+
+design patterns - reusable structures to help us write our code
+
+Anti-patterns - common responses to problems that may be ineffective, too specialized, or generally counterproductive
+
+code smells - Code does what it is supposed to; but, something about the code indicates there is probably a more elegant and productive solution to the problem.
+
+
+
+
 finding coding help on the internet
 
 
