@@ -1,58 +1,80 @@
 # stock-analysis
 stock-analysis
 
-Goals: 
-1) Find DQ's total daily volume and yearly return.
-2) For each stock find total daily volume and yearly return.
+## Project Goals
 
-Terms Covered: 
+1) Finding a single stock's total daily volume and return
+2) Finding the total daily volume and yearly return for multiple stocks
 
+## VBA Learnings Goals
+
+- Creating subroutings (aka macros)
+- Knowing how to activate a worksheet
+- Understanding how to create headings
+- Initializing variables and arrays
+- Counting the number of cells in a given row
+- Processing table data using for-loops and nested for-loops
+- Calculating stock volume and returns
+- Formatting analysis for readability
+- Creating Command Buttons to run VBA code
+- Clearing a worksheet
+
+## Subroutines/Macros 
+DQAnalysis() - Generating a report containing a single stocks volume and return.
+SkillDrillNo1() - Filling cells of a spreadsheet with values in relationship to the cell
+AllStocksAnalysis() - Processing multiple stocks to find the volume and return of each and report the results.
+SkillDrillNo2() - Practicing nested for loops using VBA
+formatAllStocksAnalysis() - Using VBA to format the All Stocks Analysis
+ClearWorksheet() - Clears any worksheet
+
+*** Each sheet contains buttons to clear the worksheet and run the corresponding VBA code
+
+## Stock Calculations: 
 Volume: Total number of shares traded within a given period of time.
 
-Yearly return: Percentage difference in price from the beginning 
-               of the year to the end of the year.
-               
+Return: Percentage difference in price from the beginning of a given
+        period to the end of another given period.
 Objects: "Things" that can be manipulated by methods.
 Example: A cell in Excel.
-
-Methods: A collection of instructions used to "do things" to objects.
-Example: Add a value to a cell.
 
 Properties: predefined variables holding values about the object.
 Example: A cell in Excel can have a value. 
 
-Our Objects: 
-Worksheets
-Cells
+Methods: A collection of instructions used to "do things" to objects.
+Example: Add a value to a cell.
 
-Methods Used: 
+
+## Methods Used: 
+Worksheets().Activate
+Range().Value
+Range().NumberFormat
+Range().Borders().LineStyle
+Range().Font.Bold
+Range().Font.Color
+Range().Font.Italic
+Range().Font.Size
+Cells().End().Row
+Cells().Value
+Cells().ClearContents
+Cells().Interior.Color
+Cells.Clear
+MsgBox ()
+
 MsgBox()
-Range()
-Cell()
-
-Macro Descriptions: 
-DQAnalysis() : 
 
 
 
 
-loops - repeat a task until a condition is met.
-  FOR Loops - repeat instructions a specific number of times.
+### Code Stuctures Use
+#### Loops
+For Loops
   
-conditionals - what controls a loop, AKA an if statement
+#### Conditionals
+If-Then, If-Then-Else and If-Then-Else-If structures.
 
-design patterns - reusable structures to help us write our code
+#### Logical operators
 
-Anti-patterns - common responses to problems that may be ineffective, too specialized, or generally counterproductive
-
-code smells - Code does what it is supposed to; but, something about the code indicates there is probably a more elegant and productive solution to the problem.
-
-Logical operators - Booleans, and, or and not's. 
-
-
-finding coding help on the internet
-
-Arrays - AKA lists
+### Arrays - AKA lists
 Nested Loops (The Skill Drill was actually fun!)
 
 Reinforcement of Best Practices
@@ -60,5 +82,13 @@ Reinforcement of Best Practices
 - Whitespace, give everyone's eyes a break.
 - Code Reuse
 - Planning and understanding the problem (AKA Requirements)
+- Readability of Workbooks
+- Removal of any Hardcoding in VBA code
+
+### Resources
+
+Juniper: [Juniper Website] (https://www.juniper-design.com/)
+Design Patterns: [The GoF Design Patterns Reference] http://w3sdesign.com/GoF_Design_Patterns_Reference0100.pdf
+Code Smells and Anti-patterns: [Sniffing Out Success: Identifying Smells and Anti-Patterns in Your Code by Patrick Delancy's:] (https://patrickdelancy.com/2013/02/sniffing-out-success-identifying-smells-and-anti-patterns-in-your-code/)
 
 
