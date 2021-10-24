@@ -34,9 +34,6 @@ Macro Descriptions:
 DQAnalysis() : 
 
 
-Documentation
-  - Importance of: "Code is read more than it is written."
-  - Whitespace, give everyone's eyes a break.
 
 
 loops - repeat a task until a condition is met.
@@ -57,5 +54,11 @@ finding coding help on the internet
 
 Arrays - AKA lists
 Nested Loops (The Skill Drill was actually fun!)
+
+Reinforcement of Best Practices
+- Documentation "Code is read more than it is written."
+- Whitespace, give everyone's eyes a break.
+- Code Reuse
+- Planning and understanding the problem (AKA Requirements)
 
 
