@@ -5,6 +5,8 @@ stock-analysis
 
 1) Finding a single stock's total daily volume and return
 2) Finding the total daily volume and yearly return for multiple stocks
+3) Creating performance analysis on AllStocksAnalysis()
+
 
 ## VBA Learnings Goals
 
@@ -78,12 +80,14 @@ If-Then, If-Then-Else and If-Then-Else-If structures.
 Nested Loops (The Skill Drill was actually fun!)
 
 Reinforcement of Best Practices
-- Documentation "Code is read more than it is written."
+- Documentation: "Code is read more than it is written."
 - Whitespace, give everyone's eyes a break.
 - Code Reuse
 - Planning and understanding the problem (AKA Requirements)
 - Readability of Workbooks
 - Removal of any Hardcoding in VBA code
+- Code Performance
+- Code Effeciency : Refactoring Code
 
 ### Resources
 
@@ -91,4 +95,15 @@ Juniper: [Juniper Website] (https://www.juniper-design.com/)
 Design Patterns: [The GoF Design Patterns Reference] http://w3sdesign.com/GoF_Design_Patterns_Reference0100.pdf
 Code Smells and Anti-patterns: [Sniffing Out Success: Identifying Smells and Anti-Patterns in Your Code by Patrick Delancy's:] (https://patrickdelancy.com/2013/02/sniffing-out-success-identifying-smells-and-anti-patterns-in-your-code/)
 
-
+Create a variable with single or long data types.
+Writing for loops.
+Writing if-then statements.
+Using design patterns.
+Using logical and comparison operators.
+Using an index to access data in an array.
+Using nested loops.
+Reusing code.
+Debugging and comment on code.
+Using visual and numeric formatting.
+Using conditional formatting.
+Measuring code performance.
