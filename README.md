@@ -6,7 +6,7 @@ stock-analysis
 ### This project was programmed in VBA. Each module's contents is described below.
 
 ## Subroutines/Macros 
-
+```
 ### module1: DQAnalysis()
  Generate report containing a single stocks volume and return.
 
@@ -33,7 +33,7 @@ stock-analysis
 ### (As Sonic says,_"Faster, faster, faster, faster, faster.")
 
 ### *** Each sheet contains buttons to clear the worksheet and run the corresponding VBA code
-
+```
 ## _KEY TAKE AWAYS_
 ### Within each module completing multiple stocks calculations, preformance analysis is completed.
 ### It was clear that by utilizing arrays and variables, processing time is improved drastically.
