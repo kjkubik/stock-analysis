@@ -20,34 +20,21 @@ module3: AllStocksAnalysis()
  Process multiple stocks to find the volume and return of each and report the results.
 
 module4: formatAllStocksAnalysis()
- Use VBA to format the "All Stocks Analysis" (reuse is possible)
+ Use VBA to format the "All Stocks Analysis" (reuse is possible).
 
 module5 ClearWorksheet()
- Subroutine created to clear any spreadsheet (reuse is possible)
+ Create subroutine to clear any spreadsheet (reuse is possible).
 
 module6: AllStocksAnalysisRefactored()
- Refactoring completed with instructions given (adding arrays to store and report)
+ Refactor by adding arrays to store and report volume and returns. 
 
 module7: AllStocksAnalysisRefactorAgain()
- Refactoring based on my own understanding of how processing occurs 
-(As Sonic says,_"Faster, faster, faster, faster, faster.")
-
-*** Each sheet contains buttons to clear the worksheet and run the corresponding VBA code
+ Refactor based on understanding of processing and how performance can 
+ be improved by tweeking the code just a little more. 
+ (As Sonic says,_"Faster, faster, faster, faster, faster.")
 ```
-## _KEY TAKE AWAYS_
-### Within each module completing multiple stocks calculations, preformance analysis is completed.
-### It was clear that by utilizing arrays and variables, processing time is improved drastically.
-### And, nested for loops are expensive.
-
-
-1) Finding a single stock's total daily volume and return
-2) Finding the total daily volume and yearly return for multiple stocks
-3) Creating performance analysis on AllStocksAnalysis() and refactoring 
-   code so that it runs as fast as it can.
-
 
 ## VBA Learnings Goals
-
 - Creating subroutings (aka macros)
 - Knowing how to activate a worksheet
 - Understanding how to create headings
@@ -58,24 +45,7 @@ module7: AllStocksAnalysisRefactorAgain()
 - Formatting analysis for readability
 - Creating Command Buttons to run VBA code
 - Clearing a worksheet
-
-
-
-## Stock Calculations: 
-Volume: Total number of shares traded within a given period of time.
-
-Return: Percentage difference in price from the beginning of a given
-        period to the end of another given period.
-
-Objects: "Things" that can be manipulated by methods.
-Example: A cell in Excel.
-
-Properties: predefined variables holding values about the object.
-Example: A cell in Excel can have a value. 
-
-Methods: A collection of instructions used to "do things" to objects.
-Example: Add a value to a cell.
-
+- Utilizing buttons with in a worksheet to execute subroutines.
 
 ## Methods Used: 
 Worksheets().Activate
@@ -92,6 +62,36 @@ Cells().ClearContents
 Cells().Interior.Color
 Cells.Clear
 MsgBox ()
+
+## Results: 
+_KEY TAKE AWAYS_
+### Within each module completing multiple stocks calculations, preformance analysis is completed.
+### It was clear that by utilizing arrays and variables, processing time is improved drastically.
+### And, nested for loops are expensive.
+
+### I seen this as an introduction to bigger and better things. The editor within Excel is lame. 
+### It pained me greatly. Instead of using it, use another, more powerful editor. I was ashamed 
+### to use it. 
+
+
+
+## Stock Calculations: 
+Volume: Total number of shares traded within a given period of time.
+
+Return: Percentage difference in price from the beginning of a given
+        period to the end of another given period.
+
+
+Objects: "Things" that can be manipulated by methods.
+Example: A cell in Excel.
+
+Properties: predefined variables holding values about the object.
+Example: A cell in Excel can have a value. 
+
+Methods: A collection of instructions used to "do things" to objects.
+Example: Add a value to a cell.
+
+
 
 MsgBox()
 
