@@ -21,15 +21,29 @@ stock-analysis
 - Creating Command Buttons to run VBA code
 - Clearing a worksheet
 
-## Subroutines/Macros 
-DQAnalysis() - Generating a report containing a single stocks volume and return.
-SkillDrillNo1() - Filling cells of a spreadsheet with values in relationship to the cell
-AllStocksAnalysis() - Processing multiple stocks to find the volume and return of each and report the results.
-SkillDrillNo2() - Practicing nested for loops using VBA
-formatAllStocksAnalysis() - Using VBA to format the All Stocks Analysis
-ClearWorksheet() - Clears any worksheet
+## ** _KEY TAKE AWAYS_ **
+Understanding by utilizing arrays and variables, processing time is improved drastically
 
-*** Each sheet contains buttons to clear the worksheet and run the corresponding VBA code
+## Subroutines/Macros 
+### module1 DQAnalysis()
+### Generate report containing a single stocks volume and return.
+### module2: SkillDrillNo1() and SkillDrillNo2()
+### 1: Fill cells of a spreadsheet with values in relationship to the cell
+### 2: Fill cells of a spreadsheet with results from an algorithm created
+### to give the sum of cell's column and row values.
+### module3: AllStocksAnalysis()
+### Process multiple stocks to find the volume and return of each and report the results.
+### module4: formatAllStocksAnalysis()
+### Using VBA to format the "All Stocks Analysis" (reuse is possible)
+### module5 ClearWorksheet()
+### subroutine created to clear any spreadsheet (reuse is possible)
+### module6: AllStocksAnalysisRefactored()
+### Refactoring completed with instructions given (adding arrays to store and report)
+### module7: AllStocksAnalysisRefactorAgain()
+### Refactoring based on my own understanding of how processing occurs (As Sonic says,
+### "Faster, faster, faster, faster, faster."
+
+### *** Each sheet contains buttons to clear the worksheet and run the corresponding VBA code
 
 ## Stock Calculations: 
 Volume: Total number of shares traded within a given period of time.
