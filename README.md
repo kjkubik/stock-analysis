@@ -11,9 +11,8 @@ stock-analysis
  Generate report containing a single stocks volume and return.
 
 ### module2: SkillDrillNo1() and SkillDrillNo2()
-##### 1) Fill cells of a spreadsheet with values in relationship to the cell.
-##### 2) Fill cells of a spreadsheet with results from an algorithm created
-#####    to give the sum of cell's column and row values.
+ 1) Fill cells of a spreadsheet with values in relationship to the cell.
+ 2) Fill cells of a spreadsheet with results from an algorithm created to give the sum of cell's column and row values.
 
 ### module3: AllStocksAnalysis()
  Process multiple stocks to find the volume and return of each and report the results.
