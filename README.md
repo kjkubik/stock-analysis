@@ -64,9 +64,6 @@ MsgBox ()
 
 MsgBox()
 
-
-
-
 ### Code Stuctures Use
 #### Loops
 For Loops
@@ -87,7 +84,13 @@ Reinforcement of Best Practices
 - Readability of Workbooks
 - Removal of any Hardcoding in VBA code
 - Code Performance
-- Code Effeciency : Refactoring Code
+- Code Effeciency : Refactoring Code 
+How fast something runs is very important in several industries. 
+There isn't one needing their data faster and faster. 
+It is an amazing race. With no further ado, I say, knowing how
+to get my code to run faster than anyone else's is important to me. 
+With the directions given, I did what I do.  
+
 
 ### Resources
 
@@ -107,3 +110,4 @@ Debugging and comment on code.
 Using visual and numeric formatting.
 Using conditional formatting.
 Measuring code performance.
+
