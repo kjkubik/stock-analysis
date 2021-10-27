@@ -9,10 +9,18 @@ stock-analysis
 
 ```
 module1: DQAnalysis()
- Generate report containing a single stocks volume and return.
+ DQAnalysis() processes a single stock's data to create a report containing total 
+ volume and year's return. The report is generated in an Excel spreadsheet using VBA.
 
 module2: SkillDrillNo1() and SkillDrillNo2()
- 1) Fill cells of a spreadsheet with values in relationship to the cell.
+ Skill Drills are more-less what Dale Carnegy would call "sharpening the saw". 
+ 
+ For the first skill drill, we dive into filling in cells systematically so that the 
+ sum of the row number and column number is displayed for each cell in a 10x10 range. 
+  
+ [put a picture of this here!] 
+ 
+ 1: Practice working with nested forloops to generate values in Fill cells of a spreadsheet with values in relationship to the cell.
  2) Fill cells of a spreadsheet with results from an algorithm created to give 
     the sum of cell's column and row values.
 
@@ -30,7 +38,7 @@ module6: AllStocksAnalysisRefactored()
 
 module7: AllStocksAnalysisRefactorAgain()
  Refactor based on understanding of processing and how performance can 
- be improved by tweeking the code just a little more. 
+ be improved by 'tweeking' the code just a little. 
  (As Sonic says,_"Faster, faster, faster, faster, faster.")
 ```
 
@@ -48,39 +56,39 @@ module7: AllStocksAnalysisRefactorAgain()
 - Utilizing buttons with in a worksheet to execute subroutines.
 
 ## Methods Used: 
-Worksheets().Activate
-Range().Value
-Range().NumberFormat
-Range().Borders().LineStyle
-Range().Font.Bold
-Range().Font.Color
-Range().Font.Italic
-Range().Font.Size
-Cells().End().Row
-Cells().Value
-Cells().ClearContents
-Cells().Interior.Color
-Cells.Clear
-MsgBox ()
+- Worksheets().Activate
+- Range().Value
+- Range().NumberFormat
+- Range().Borders().LineStyle
+- Range().Font.Bold
+- Range().Font.Color
+- Range().Font.Italic
+- Range().Font.Size
+- Cells().End().Row
+- Cells().Value
+- Cells().ClearContents
+- Cells().Interior.Color
+- Cells.Clear
+- MsgBox ()
+-?????????????????????????????????????????
 
-## Results: 
-_KEY TAKE AWAYS_
-### Within each module completing multiple stocks calculations, preformance analysis is completed.
-### It was clear that by utilizing arrays and variables, processing time is improved drastically.
+## Results and _KEY TAKE AWAYS_
+
+### Within each multiple stock analysis, preformance analysis is completed. It was clear 
+### that by utilizing arrays and variables, processing time is improved drastically.
 ### And, nested for loops are expensive.
 
 ### I seen this as an introduction to bigger and better things. The editor within Excel is lame. 
 ### It pained me greatly. Instead of using it, use another, more powerful editor. I was ashamed 
 ### to use it. 
 
-
+### you have to say something about the differences between running 2017 and 2018!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ## Stock Calculations: 
 Volume: Total number of shares traded within a given period of time.
 
 Return: Percentage difference in price from the beginning of a given
         period to the end of another given period.
-
 
 Objects: "Things" that can be manipulated by methods.
 Example: A cell in Excel.
