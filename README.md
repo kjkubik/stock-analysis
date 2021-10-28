@@ -1,10 +1,9 @@
 # stock-analysis
-stock-analysis
 
-## Project Overview
+# Project Overview
 
 ### This project primary goal was to utilize VBA to aid in the analysis 
-of green enercy stocks. Each subprograms contents is described below.
+### of green enercy stocks. Each subprograms contents is described below.
 
 ## Subroutines/Macros 
 
@@ -85,7 +84,7 @@ at this point is to be very cautious when considering the purchase of AY, JKS an
 analysis is needed on the other nine stocks.
 ```
 
-### _KEY TAKE AWAYS_
+## _KEY TAKE AWAYS_
 ### Within each multiple stock analysis, preformance analysis is completed. It was clear 
 ### that by utilizing arrays and variables, processing time is improved drastically.
 ### And, nested for loops are expensive.
