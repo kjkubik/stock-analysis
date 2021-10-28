@@ -18,11 +18,11 @@ Skill Drills are more-less what Dale Carnegie would call "sharpening the saw".
 For the first skill drill is used to help us sharpen our saws on for loop usage. We
 dive into filling in cells systematically (using for loops) so that the sum of the
 row number and column number is displayed for each cell in a 10x10 range.
-![](stock-analysis/blob/main/resources/SkillDrill1.png)
+![](resources/SkillDrill1.png)
 
 For the second skill drill, we continued to work with nested for-loops. This time,
 we are asked to create a 'checkered pattern' in a 8x8 set of cells.
-![](stock-analysis/blob/main/resources/SkillDrill2.png)
+![](resources/SkillDrill2.png)
 
 ### module3: AllStocksAnalysis()
 
@@ -71,7 +71,7 @@ performance time by 15%.
 
 ## Results
 
-![](stock-analysis/blob/main/resources/Table_and_Performance_Results.png)
+![](resources/Table_and_Performance_Results.png)
 
 ### Analysis on Green Stocks
 
