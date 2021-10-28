@@ -2,48 +2,49 @@
 
 ## Project Overview
 
-### This project primary goal was to utilize VBA to aid in the analysis
+This project primary goal was to utilize VBA to aid in the analysis of green energy stocks. Each subprogram’s content is described below.
 
-### of green energy stocks. Each subprogram’s content is described below.
 
 ## Subroutines/Macros
 
-##### module1: DQAnalysis()
+### module1: DQAnalysis()
 
 This subprogram processes a single stock to create a report containing total volume and year's return. The report is generated in an Excel spreadsheet using VBA.
 
-##### module2: SkillDrillNo1() and SkillDrillNo2()
+### module2: SkillDrillNo1() and SkillDrillNo2()
 
 Skill Drills are more-less what Dale Carnegie would call "sharpening the saw".
 
 For the first skill drill is used to help us sharpen our saws on for loop usage. We
 dive into filling in cells systematically (using for loops) so that the sum of the
 row number and column number is displayed for each cell in a 10x10 range.
+![](stock-analysis/blob/main/resources/SkillDrill1.png)
 
 For the second skill drill, we continued to work with nested for-loops. This time,
 we are asked to create a 'checkered pattern' in a 8x8 set of cells.
+![](stock-analysis/blob/main/resources/SkillDrill2.png)
 
-##### module3: AllStocksAnalysis()
+### module3: AllStocksAnalysis()
 
 In this subprogram, we report the volume and return of multiple stocks. To make it
 easier for our fictitious user, we add a button to the reporting spreadsheet. This
 way the user will only have to press a button to generate the report.
 
-##### module4: formatAllStocksAnalysis()
+### module4: formatAllStocksAnalysis()
 
 This subprogram was create to format the "All Stocks Analysis" report.
 
-##### module5 ClearWorksheet()
+### module5 ClearWorksheet()
 
 This subroutine was created to reset a spreadsheet. This empties the cells as well
 as existing formats performed on the spreadsheet.
 
-###### module6: AllStocksAnalysisRefactored()
+### module6: AllStocksAnalysisRefactored()
 
 This is a second try at the AllStocksAnalysis. Here refactoring is completed by adding
 arrays to store and report volume and returns. We also add a timer to measure performance.
 
-##### module7: AllStocksAnalysisRefactorAgain()
+### module7: AllStocksAnalysisRefactorAgain()
 
 Still interested at improving the subprogram's performance, I was able to improved
 performance by 'tweaking' the code just a little. By adding four variables to capture
@@ -69,6 +70,8 @@ performance time by 15%.
 - MsgBox
 
 ## Results
+
+![](stock-analysis/blob/main/resources/Table_and_Performance_Results.png)
 
 ### Analysis on Green Stocks
 
