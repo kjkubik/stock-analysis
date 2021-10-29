@@ -88,22 +88,23 @@ After looking at each stocks volume and return, the only thing I might do is eli
 
 ## _KEY TAKE AWAYS_
 
-Within each multiple stock analysis, performance analysis is completed. It was clear that by utilizing arrays and variables, processing time is improved drastically. And, nested for loops are expensive. In the results above, I added a "Processing Time" for each refactoring completed. It was wonderful to see how power arrays and  variables can be when used correctly.
+Within each multiple stock analysis, performance analysis is completed. It was clear that by utilizing arrays and variables, processing time is improved drastically. And, nested for-loops are expensive. In the results above, I added a "Processing Time" for each refactoring completed. It was wonderful to see how power arrays and  variables can be when used correctly.
 
 When working with Excel VBA, I liked placing the code in Visual Studio Code. It was much easier to work with. It displayed things in many colors and coding is quicker. Also, the compiler in Excel doesn't stop you when you leave a line incomplete.
 
-### Reinforcement of Best Practices
+Lastly, let's talk about extentions. Extensions in Visual Studio Code are wonderfully easy to find and install. I really like this feature in VS Code. To save time, I found myself a markdown editor. I don't know everything it does; however, it is very user friendly. I do know one thing, I will be doing README.mds using this tool from now on. Always forward! 😄
+
+### Reinforcing Best Practices (things to do when you are writing and refactoring code)
 
 - Documentation: "Code is read more than it is written." ...comment your code.
 - Whitespace, gives everyone's eyes a break.
 - Code Reuse, try your hardest not to code something more than once.
 - Planning and understanding the problem. Not only know your requirements, have conversations with your users/customers.
 - Readability of Workbooks
-- Removal of any Hardcoding in VBA code
+- Hardcodings removal (after getting things working)
 - Code Performance and Efficiency
-- Refactoring Code
-- User ‘friendliness’
-- Simplification of Calculations
+- User ‘friendliness’ (It is the user that will be using your application...not you!)
+- Simplification of Calculations and Processing (using arrays and variables).
 
 ## Resources and Independent Study
 
