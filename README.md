@@ -94,7 +94,9 @@ When working with Excel VBA, I liked placing the code in Visual Studio Code. It 
 
 Lastly, let's talk about extentions. Extensions in Visual Studio Code are wonderfully easy to find and install. I really like this feature in VS Code. To save time, I found myself a markdown editor. I don't know everything it does; however, it is very user friendly. I do know one thing, I will be doing README.mds using this tool from now on. Always forward! 😄
 
-### Reinforcing Best Practices (things to do when you are writing and refactoring code)
+### Reinforcing Best Practices
+
+There is nothing better than well written code, code that not only works, but is easy to read and meets processing expectations. Practicing the following things when coding and refactoring can make you shine and your users very happy.
 
 - Documentation: "Code is read more than it is written." ...comment your code.
 - Whitespace, gives everyone's eyes a break.
@@ -105,6 +107,10 @@ Lastly, let's talk about extentions. Extensions in Visual Studio Code are wonder
 - Code Performance and Efficiency
 - User ‘friendliness’ (It is the user that will be using your application...not you!)
 - Simplification of Calculations and Processing (using arrays and variables).
+
+#### **Refactoring doesn't mean accidently breaking your code.**
+
+Before beginning refactoring, be sure to save code either by making a copy or comment out the original code you are attempting to change. Also, saving any testing completed is advised. **Nothing is worse than loosing what you have coded when refactoring.**
 
 ## Resources and Independent Study
 
