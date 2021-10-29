@@ -4,7 +4,6 @@
 
 This project primary goal was to utilize VBA to aid in the analysis of green energy stocks. Each subprogram’s content is described below.
 
-
 ## Subroutines/Macros
 
 ### module1: DQAnalysis()
@@ -87,16 +86,16 @@ After looking at each stocks volume and return, the only thing I might do is eli
 
 ## _KEY TAKE AWAYS_
 
-Within each multiple stock analysis, performance analysis is completed. It was clear that by utilizing arrays and variables, processing time is improved drastically. And, nested for loops are expensive.
+Within each multiple stock analysis, performance analysis is completed. It was clear that by utilizing arrays and variables, processing time is improved drastically. And, nested for loops are expensive. In the results above, I added a "Processing Time" for each refactoring completed. It was wonderful to see how power arrays and  variables can be when used correctly.
 
-I seen this as an introduction to bigger and better things. The editor within Excel is lame. It pained me greatly. Instead of using it, use another, more powerful editor. I was ashamed to use it.
+When working with Excel VBA, I liked placing the code in Visual Studio Code. It was much easier to work with. It displayed things in many colors and coding is quicker. Also, the compiler in Excel doesn't stop you when you leave a line incomplete.
 
 ## Reinforcement of Best Practices
 
-- Documentation: "Code is read more than it is written."
-- Whitespace, give everyone's eyes a break.
-- Code Reuse
-- Planning and understanding the problem (AKA Requirements)
+- Documentation: "Code is read more than it is written." ...comment your code.
+- Whitespace, gives everyone's eyes a break.
+- Code Reuse, try your hardest not to code something more than once.
+- Planning and understanding the problem. Not only know your requirements, have conversations with your users/customers.
 - Readability of Workbooks
 - Removal of any Hardcoding in VBA code
 - Code Performance and Efficiency
