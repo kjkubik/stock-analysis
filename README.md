@@ -8,19 +8,21 @@ This project primary goal was to utilize VBA to aid in the analysis of green ene
 
 ### module1: DQAnalysis()
 
-This subprogram processes a single stock to create a report containing total volume and year's return. The report is generated in an Excel spreadsheet using VBA.
+This subprogram processes a single stock to create a report containing total volume and a year's return. The report is generated in an Excel spreadsheet using VBA.
 
 ### module2: SkillDrillNo1() and SkillDrillNo2()
 
 Skill Drills are more-less what Dale Carnegie would call "sharpening the saw".
 
-For the first skill drill is used to help us sharpen our saws on for loop usage. We
-dive into filling in cells systematically (using for loops) so that the sum of the
+The first skill drill is used to help us "sharpen our saws" on for-loop usage. We
+dive into filling in cells systematically (using for-loops) so that the sum of the
 row number and column number is displayed for each cell in a 10x10 range.
+
 ![](resources/SkillDrill1.png)
 
 For the second skill drill, we continued to work with nested for-loops. This time,
 we are asked to create a 'checkered pattern' in a 8x8 set of cells.
+
 ![](resources/SkillDrill2.png)
 
 ### module3: AllStocksAnalysis()
@@ -78,9 +80,9 @@ Several of the stocks did amazing in 2017; however, in 2018, several reported a 
 returns. Still, if you average their returns and look at the data a little closer, only
 three contained negative gains over a 2-year period of time. It is clear that more analysis needs to be completed before offering any advice on them.
 
-For example, ENPH looks like a good stock to buy; however, the stock may have been an IPO in 2017. After a period of time, stocks lose their 'luster'. One of the things we use to measure the 'Popularity War' is the volume of a stock. When we look at volume, more of the story is told. ENPH is the stock with the largest 'luster'. Still, I don't know if I would be willing to give any advice on buying ENPH. When looking at the difference in the rate of returns from 2017 and 2018, ENPH is down 48%.
+For example, ENPH looks like a good stock to buy; however, the stock may have been an IPO in 2017. After a period of time, stocks lose their 'luster'. One of the things we use to measure the 'Popularity War' is the volume of a stock. When we look at volume, more of the story is told. ENPH is the stock with the largest 'luster'. Still, I don't know if I would be willing to give any advice on buying ENPH. This is because when looking at the difference in the rate of returns from 2017 and 2018, ENPH is down 48%.
 
-Volume and rate of return are good indicators for buying stock, they must be used with other factors to determine whether a stock is worthy of our attention. Here is an article defining some of the more important metrics: [9 Essential Metrics All Smart Investors Should Know](https://www.fool.com/investing/2018/03/21/9-essential-metrics-all-smart-investors-should-kno.aspx)
+Volume and rate of return are good indicators for buying stock; they must be used with other factors to determine whether a stock is worthy of our attention. Here is an article defining some of the more important metrics: [9 Essential Metrics All Smart Investors Should Know](https://www.fool.com/investing/2018/03/21/9-essential-metrics-all-smart-investors-should-kno.aspx)
 
 After looking at each stocks volume and return, the only thing I might do is eliminate stocks. The only advice I would give is to be very cautious when considering the purchase of AY, JKS and SPWR. Further analysis is needed on the other nine stocks.
 
@@ -90,7 +92,7 @@ Within each multiple stock analysis, performance analysis is completed. It was c
 
 When working with Excel VBA, I liked placing the code in Visual Studio Code. It was much easier to work with. It displayed things in many colors and coding is quicker. Also, the compiler in Excel doesn't stop you when you leave a line incomplete.
 
-## Reinforcement of Best Practices
+### Reinforcement of Best Practices
 
 - Documentation: "Code is read more than it is written." ...comment your code.
 - Whitespace, gives everyone's eyes a break.
