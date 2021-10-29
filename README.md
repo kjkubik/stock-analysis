@@ -107,7 +107,7 @@ When working with Excel VBA, I liked placing the code in Visual Studio Code. It 
 
 ## Resources and Independent Study
 
-### Juniper: [Juniper Website](https://www.juniper-design.com/)
+### Juniper: [Juniper: A Functional Reactive Programming Language](https://create.arduino.cc/projecthub/juniper/juniper-a-functional-reactive-programming-language-50d11f)
 
 ### Design Patterns: [The Gang of Four (GoF) Design Patterns Reference](http://w3sdesign.com/GoF_Design_Patterns_Reference0100.pdf)
 
